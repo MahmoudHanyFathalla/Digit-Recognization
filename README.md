@@ -1,6 +1,7 @@
 # Digit-Recognization
+SYNC INTERN'S internship Final and second Task which is a Digit Recognizer AI model that detects handwritten digits with 99% accuracy
 
-This code is for building a deep learning model using convolutional neural network (CNN) for the Digit Recognizer problem on Kaggle. The dataset used is the MNIST dataset, which contains images of handwritten digits.
+This project is for building a deep learning model using convolutional neural network (CNN) for the Digit Recognizer problem. The dataset used is the MNIST dataset, which contains images of handwritten digits.
 
 The code imports the required libraries, loads the training data, pre-processes the data, builds and trains the CNN model, evaluates the model using validation data, plots the accuracy and loss graphs, loads and pre-processes the test data, and finally makes predictions on the test data and saves the results to a CSV file.
 
@@ -8,6 +9,6 @@ The CNN model architecture consists of two sets of convolutional and pooling lay
 
 The model is trained for 30 epochs with a batch size of 32 and the RMSprop optimizer is used to minimize the categorical cross-entropy loss function.
 
-The accuracy and loss graphs show that the model has good performance on both the training and validation sets, and there is no overfitting.
+The accuracy and loss graph shows that the model has good performance on both the training and validation sets, and there is no overfitting.
 
 The model is saved in the "digit.h5" file.
