@@ -1,4 +1,4 @@
-# Digit_Recognization
+# Digit-Recognization
 
 This code is for building a deep learning model using convolutional neural network (CNN) for the Digit Recognizer problem on Kaggle. The dataset used is the MNIST dataset, which contains images of handwritten digits.
 
